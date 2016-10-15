@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2313F04B1DB1DFC600C488CC /* SandTiles.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2313F04A1DB1DFC600C488CC /* SandTiles.atlas */; };
+		238871421DB1C018004A2D98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238871411DB1C018004A2D98 /* AppDelegate.swift */; };
+		238871441DB1C018004A2D98 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 238871431DB1C018004A2D98 /* GameScene.sks */; };
+		238871461DB1C018004A2D98 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 238871451DB1C018004A2D98 /* Actions.sks */; };
+		238871481DB1C018004A2D98 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238871471DB1C018004A2D98 /* GameScene.swift */; };
+		2388714A1DB1C018004A2D98 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238871491DB1C018004A2D98 /* GameViewController.swift */; };
+		2388714D1DB1C019004A2D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2388714B1DB1C019004A2D98 /* Main.storyboard */; };
+		2388714F1DB1C019004A2D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2388714E1DB1C019004A2D98 /* Assets.xcassets */; };
+		238871521DB1C019004A2D98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238871501DB1C019004A2D98 /* LaunchScreen.storyboard */; };
+		2388715D1DB1C019004A2D98 /* TileNodeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2388715C1DB1C019004A2D98 /* TileNodeTestTests.swift */; };
+		238871681DB1C019004A2D98 /* TileNodeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238871671DB1C019004A2D98 /* TileNodeTestUITests.swift */; };
+		238871761DB1D4E4004A2D98 /* GroundTiles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 238871751DB1D4E4004A2D98 /* GroundTiles.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		238871591DB1C019004A2D98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 238871361DB1C018004A2D98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2388713D1DB1C018004A2D98;
+			remoteInfo = TileNodeTest;
+		};
+		238871641DB1C019004A2D98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 238871361DB1C018004A2D98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2388713D1DB1C018004A2D98;
+			remoteInfo = TileNodeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2313F04A1DB1DFC600C488CC /* SandTiles.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SandTiles.atlas; sourceTree = "<group>"; };
+		2388713E1DB1C018004A2D98 /* TileNodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileNodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		238871411DB1C018004A2D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		238871431DB1C018004A2D98 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		238871451DB1C018004A2D98 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		238871471DB1C018004A2D98 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		238871491DB1C018004A2D98 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2388714C1DB1C019004A2D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2388714E1DB1C019004A2D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		238871511DB1C019004A2D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		238871531DB1C019004A2D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238871581DB1C019004A2D98 /* TileNodeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TileNodeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2388715C1DB1C019004A2D98 /* TileNodeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileNodeTestTests.swift; sourceTree = "<group>"; };
+		2388715E1DB1C019004A2D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238871631DB1C019004A2D98 /* TileNodeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TileNodeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		238871671DB1C019004A2D98 /* TileNodeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileNodeTestUITests.swift; sourceTree = "<group>"; };
+		238871691DB1C019004A2D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238871751DB1D4E4004A2D98 /* GroundTiles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GroundTiles.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2388713B1DB1C018004A2D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238871551DB1C019004A2D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238871601DB1C019004A2D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238871351DB1C018004A2D98 = {
+			isa = PBXGroup;
+			children = (
+				238871401DB1C018004A2D98 /* TileNodeTest */,
+				2388715B1DB1C019004A2D98 /* TileNodeTestTests */,
+				238871661DB1C019004A2D98 /* TileNodeTestUITests */,
+				2388713F1DB1C018004A2D98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2388713F1DB1C018004A2D98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2388713E1DB1C018004A2D98 /* TileNodeTest.app */,
+				238871581DB1C019004A2D98 /* TileNodeTestTests.xctest */,
+				238871631DB1C019004A2D98 /* TileNodeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		238871401DB1C018004A2D98 /* TileNodeTest */ = {
+			isa = PBXGroup;
+			children = (
+				2313F04A1DB1DFC600C488CC /* SandTiles.atlas */,
+				238871411DB1C018004A2D98 /* AppDelegate.swift */,
+				238871431DB1C018004A2D98 /* GameScene.sks */,
+				238871751DB1D4E4004A2D98 /* GroundTiles.sks */,
+				238871451DB1C018004A2D98 /* Actions.sks */,
+				238871471DB1C018004A2D98 /* GameScene.swift */,
+				238871491DB1C018004A2D98 /* GameViewController.swift */,
+				2388714B1DB1C019004A2D98 /* Main.storyboard */,
+				2388714E1DB1C019004A2D98 /* Assets.xcassets */,
+				238871501DB1C019004A2D98 /* LaunchScreen.storyboard */,
+				238871531DB1C019004A2D98 /* Info.plist */,
+			);
+			path = TileNodeTest;
+			sourceTree = "<group>";
+		};
+		2388715B1DB1C019004A2D98 /* TileNodeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2388715C1DB1C019004A2D98 /* TileNodeTestTests.swift */,
+				2388715E1DB1C019004A2D98 /* Info.plist */,
+			);
+			path = TileNodeTestTests;
+			sourceTree = "<group>";
+		};
+		238871661DB1C019004A2D98 /* TileNodeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				238871671DB1C019004A2D98 /* TileNodeTestUITests.swift */,
+				238871691DB1C019004A2D98 /* Info.plist */,
+			);
+			path = TileNodeTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2388713D1DB1C018004A2D98 /* TileNodeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2388716C1DB1C019004A2D98 /* Build configuration list for PBXNativeTarget "TileNodeTest" */;
+			buildPhases = (
+				2388713A1DB1C018004A2D98 /* Sources */,
+				2388713B1DB1C018004A2D98 /* Frameworks */,
+				2388713C1DB1C018004A2D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TileNodeTest;
+			productName = TileNodeTest;
+			productReference = 2388713E1DB1C018004A2D98 /* TileNodeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		238871571DB1C019004A2D98 /* TileNodeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2388716F1DB1C019004A2D98 /* Build configuration list for PBXNativeTarget "TileNodeTestTests" */;
+			buildPhases = (
+				238871541DB1C019004A2D98 /* Sources */,
+				238871551DB1C019004A2D98 /* Frameworks */,
+				238871561DB1C019004A2D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2388715A1DB1C019004A2D98 /* PBXTargetDependency */,
+			);
+			name = TileNodeTestTests;
+			productName = TileNodeTestTests;
+			productReference = 238871581DB1C019004A2D98 /* TileNodeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		238871621DB1C019004A2D98 /* TileNodeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238871721DB1C019004A2D98 /* Build configuration list for PBXNativeTarget "TileNodeTestUITests" */;
+			buildPhases = (
+				2388715F1DB1C019004A2D98 /* Sources */,
+				238871601DB1C019004A2D98 /* Frameworks */,
+				238871611DB1C019004A2D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				238871651DB1C019004A2D98 /* PBXTargetDependency */,
+			);
+			name = TileNodeTestUITests;
+			productName = TileNodeTestUITests;
+			productReference = 238871631DB1C019004A2D98 /* TileNodeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		238871361DB1C018004A2D98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Zion Perez";
+				TargetAttributes = {
+					2388713D1DB1C018004A2D98 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S76F4E24H2;
+						ProvisioningStyle = Automatic;
+					};
+					238871571DB1C019004A2D98 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S76F4E24H2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2388713D1DB1C018004A2D98;
+					};
+					238871621DB1C019004A2D98 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = S76F4E24H2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2388713D1DB1C018004A2D98;
+					};
+				};
+			};
+			buildConfigurationList = 238871391DB1C018004A2D98 /* Build configuration list for PBXProject "TileNodeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 238871351DB1C018004A2D98;
+			productRefGroup = 2388713F1DB1C018004A2D98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2388713D1DB1C018004A2D98 /* TileNodeTest */,
+				238871571DB1C019004A2D98 /* TileNodeTestTests */,
+				238871621DB1C019004A2D98 /* TileNodeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2388713C1DB1C018004A2D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2388714D1DB1C019004A2D98 /* Main.storyboard in Resources */,
+				238871441DB1C018004A2D98 /* GameScene.sks in Resources */,
+				238871761DB1D4E4004A2D98 /* GroundTiles.sks in Resources */,
+				2388714F1DB1C019004A2D98 /* Assets.xcassets in Resources */,
+				238871521DB1C019004A2D98 /* LaunchScreen.storyboard in Resources */,
+				2313F04B1DB1DFC600C488CC /* SandTiles.atlas in Resources */,
+				238871461DB1C018004A2D98 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238871561DB1C019004A2D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238871611DB1C019004A2D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2388713A1DB1C018004A2D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238871481DB1C018004A2D98 /* GameScene.swift in Sources */,
+				2388714A1DB1C018004A2D98 /* GameViewController.swift in Sources */,
+				238871421DB1C018004A2D98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		238871541DB1C019004A2D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2388715D1DB1C019004A2D98 /* TileNodeTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2388715F1DB1C019004A2D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238871681DB1C019004A2D98 /* TileNodeTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2388715A1DB1C019004A2D98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2388713D1DB1C018004A2D98 /* TileNodeTest */;
+			targetProxy = 238871591DB1C019004A2D98 /* PBXContainerItemProxy */;
+		};
+		238871651DB1C019004A2D98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2388713D1DB1C018004A2D98 /* TileNodeTest */;
+			targetProxy = 238871641DB1C019004A2D98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2388714B1DB1C019004A2D98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2388714C1DB1C019004A2D98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		238871501DB1C019004A2D98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238871511DB1C019004A2D98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2388716A1DB1C019004A2D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2388716B1DB1C019004A2D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2388716D1DB1C019004A2D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S76F4E24H2;
+				INFOPLIST_FILE = TileNodeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uitests.TileNodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2388716E1DB1C019004A2D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S76F4E24H2;
+				INFOPLIST_FILE = TileNodeTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uitests.TileNodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		238871701DB1C019004A2D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S76F4E24H2;
+				INFOPLIST_FILE = TileNodeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uitests.TileNodeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TileNodeTest.app/TileNodeTest";
+			};
+			name = Debug;
+		};
+		238871711DB1C019004A2D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S76F4E24H2;
+				INFOPLIST_FILE = TileNodeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uitests.TileNodeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TileNodeTest.app/TileNodeTest";
+			};
+			name = Release;
+		};
+		238871731DB1C019004A2D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S76F4E24H2;
+				INFOPLIST_FILE = TileNodeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uitests.TileNodeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TileNodeTest;
+			};
+			name = Debug;
+		};
+		238871741DB1C019004A2D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S76F4E24H2;
+				INFOPLIST_FILE = TileNodeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uitests.TileNodeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TileNodeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238871391DB1C018004A2D98 /* Build configuration list for PBXProject "TileNodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2388716A1DB1C019004A2D98 /* Debug */,
+				2388716B1DB1C019004A2D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2388716C1DB1C019004A2D98 /* Build configuration list for PBXNativeTarget "TileNodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2388716D1DB1C019004A2D98 /* Debug */,
+				2388716E1DB1C019004A2D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2388716F1DB1C019004A2D98 /* Build configuration list for PBXNativeTarget "TileNodeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238871701DB1C019004A2D98 /* Debug */,
+				238871711DB1C019004A2D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238871721DB1C019004A2D98 /* Build configuration list for PBXNativeTarget "TileNodeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238871731DB1C019004A2D98 /* Debug */,
+				238871741DB1C019004A2D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 238871361DB1C018004A2D98 /* Project object */;
+}
